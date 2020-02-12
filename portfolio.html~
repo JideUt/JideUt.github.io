@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Portfolio</title>
+<link href="file:///C:/Users/jidew/Documents/My%20Menu%20Website/stylesheet.css" type="text/css " rel="stylesheet" />	
+	</head>
+	<body>
+<div class="container"> 
+			<div class="header">This is the header. It 				displays full width. </div> 
+			<nav>
+				<ul class="menu1">
+					<li><a href="index.html" target="_blank">Home</a></li>
+					<li><a href="about.html"target="_blank">About</a></li>
+					<li><a class="active" href="portfolio.html" target="_blank">Portfolio</a></li>
+					<li><a href="contact.html" target="_blank">Contact Us</a></li>
+				</ul>
+			
+			</nav> 
+			<div class="container2"> 
+				<div class="left">This is a box to the 				left	of the main content. </div>
+				<div class="main">This is main content in 				a center column. </div>
+				<div class="right">This is a box to the 					right of the main content. </div>
+			</div>			
+			<div class="footer">This is the footer. It 				displays full width. </div> 
+		</div>
+	</body>
+</html>

@@ -1,0 +1,256 @@
+ /* menu style for narrow screens*/ 
+.menu1 ul {list-style-type: none; background-color: #444444;
+ 
+  
+text-align: center; padding: 0; margin: 0;}
+ 
+.menu1 li {
+ 
+  
+font-family: sans-serif;
+ 
+  
+font-size: 1.2em;
+ 
+  
+line-height: 40px;
+ 
+  
+text-align: left;}
+ 
+.menu1 a {
+ 
+  
+text-decoration: none;
+ 
+  
+color: #ffffff;
+ 
+  
+display: block;
+ 
+  
+padding-left: 15px;
+ 
+  
+border-bottom: 1px solid #888888;
+ 
+  
+background-color: #aaaadd;
+}
+ 
+.menu1 a:hover {
+ 
+  
+background-color: #aaaaaa;}
+ 
+.menu1 a.active {
+ 
+  
+background-color: #cccccc;
+ 
+  
+color: #8888cc;
+ 
+  
+cursor: default;}
+ 
+/* Sub Menus */
+ 
+.menu1
+ li li {
+ 
+  
+font-size: .8em;
+ 
+color: #9999ff;
+ 
+background-color: #eeeeee;
+}
+
+
+
+@media screen and (min-width: 640px){
+	
+	.container { 
+
+text-align: center; background-color: #aaaaff; 
+
+}
+
+.container2 {
+
+text-align: center; background-color: #444444
+
+}
+ 
+.header, .nav, .left, .main, footer, .right { 
+
+vertical-align: top; display: inline-block; width: 
+
+100%; 
+
+} 
+.header { 
+
+height: 80px; 
+
+text-align: left; 
+
+background-color: #ddffff;
+
+
+}
+
+.nav {
+
+height:50px; 
+
+text-align:left;
+
+background-color: #ddddff;
+
+width: 100%;
+
+
+}  
+
+.left { 
+
+width: 20%;
+
+height:150px; 
+
+text-align:left; 
+
+background-color: #aaaaff; 
+
+padding-right: 1%;
+
+padding: 1%;
+
+margin: 3%;
+
+} 
+
+.main { 
+
+width: 30%; 
+
+height:150px; 
+
+text-align:left; 
+
+background-color: #eeeeff;
+
+padding: 1%;
+
+margin: 3%;
+}
+
+.right { 
+
+width: 20%; 
+
+height:150px; 
+
+text-align: left; 
+
+background-color:#aaaaff;
+
+padding: 1%; 
+
+margin: 3%;
+
+}
+
+.footer {
+
+height: 50px; 
+
+text-align: left; 
+
+background-color: #ffdddd;
+
+}
+
+ul.menu1 {
+
+margin: 0;
+
+padding: 0;
+
+text-align: left;
+
+list-style-type: none;
+
+overflow: hidden;
+
+width: 80%;
+
+}
+
+.menu1 > li {float: left;}
+
+.menu1 a {
+
+display: inline-block;
+
+text-align: center;
+
+font-size: 16px;
+
+font-weight: bold;
+
+text-decoration: none;
+
+color: #339;
+
+padding: 8px; 
+
+}
+
+a:hover {
+
+color: #da3
+
+
+}
+
+a.active {
+
+color:  #000;
+
+}
+
+ul.menu1 a.blue {
+
+background-color: blue;
+
+}
+
+ul.menu1 a.green {
+
+background-color: green;
+
+}
+
+ul.menu1 a.red {
+
+background-color: red;
+
+}
+
+ul.menu1 a.purple {
+
+background-color: #e3e;
+
+}
+
+ul.menu1 li ul {position: absolute; display: none; width: inherit; background-color: #ddddff; text-align: left;padding-left: 0;}
+
+ul.menu1 li:hover ul {display: block;}
+
+ul.menu1 li ul li {display: block;}
+
+ul.menu1 li > a:not(:only-child)::after {content: "▼"; width: 0; height: 0; border-left: 15px solid transparent; border-right: 5px solid transparent; border-bottom: 15px solid transparent; float: right;}
